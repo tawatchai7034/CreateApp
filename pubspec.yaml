@@ -29,11 +29,14 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.0
   flutter_launcher_icons: ^0.9.0 #convert icons app
+  flutter_speed_dial: ^3.0.5
 
 #include image icons
 flutter_icons: 
+  #convert image to andriod and ios icon.function need andriod: true and ios: true.
   andriod: true
-  image_path: "image/Scope35.png" # location of image icons
+  ios : true
+  image_path: "image/playstore.png" # location of image icons
 
 dev_dependencies:
   flutter_test:
